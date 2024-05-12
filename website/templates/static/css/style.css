@@ -1,0 +1,35 @@
+body {
+    background-color: #ffffff;
+}
+
+.game-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.game-item {
+    width: calc(25% - 10px); /* Adjust width of each game item */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    text-decoration: none; /* Remove underline from game links */
+}
+
+.game-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.game-title {
+    margin: 0;
+}
+
+.game-price {
+    margin: 0;
+}
+
+.custom-container {
+    text-align: left;
+}
